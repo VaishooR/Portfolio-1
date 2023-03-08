@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=Poppins:ital,wght@0,400;0,500;0,600;1,300&family=Raleway&family=Roboto+Mono:ital,wght@1,300&family=Roboto:wght@100;300;400;500;700;900&family=Rubik:wght@300&display=swap');
+
+.portfolio{
+    width: 100%;
+    min-height: 100vh;
+    padding-bottom: 5rem;
+    padding-top: 4rem;
+}
+.portfolio h2{
+    height:80px;
+    font-size: 3rem;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+}
+.portfolio h2 span {
+    color:crimson;
+    font-size: 3rem;
+}
+.project-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 0.5rem 3.5rem;
+}
+.project-cards .card{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height:300px;
+    /* background-color: #f5f6fa; */
+    border-radius: 5px;
+
+    /* background-color: rgb(228, 228, 233); */
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 14px 15px ;
+    margin: 20px 0px;
+
+}
+.project-cards .card:hover{
+    transform: scale(1.03);
+    transition: all 0.5s;
+}
+.project-cards .card img{
+    width: 100%;
+    border-radius: 3px;
+    height: 200px;
+    overflow: hidden;
+    margin-bottom:15px;
+}
+.project-cards .card h3{
+    text-align: center;
+    font-size:23px;
+    margin-bottom:15px;
+    color:crimson;
+    color:#242d49;
+}
+.project-cards .card p{
+    text-align: center;
+    font-size:15px;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 15px;
+    color:gray;
+    color: crimson;
+}
+.project-cards .card p span{
+    color:crimson;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+.project-cards a{
+    color:#242d49;
+}
+.project-cards p{
+    color:silver;
+}
+.sourcecode-icons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 45px;
+}
+.sourcecode-icons i{
+    font-size: 25px;
+    /* border:2px solid #242d49; */
+    padding: 6px 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    /* background-color:rgb(238, 239, 240); */
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px ; */
+    border: 1px solid silver;
+    color:grey;
+}
+
+.sourcecode-icons i:hover{
+    border: 2px solid silver;
+    color:#242d49;
+    border:1px solid #242d49;
+}

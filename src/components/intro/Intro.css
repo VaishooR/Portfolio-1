@@ -1,0 +1,81 @@
+.intro-comp{
+    padding:0rem 3.5rem;
+    width: 100%;
+    height: calc(100vh - 90px);
+    display: flex;
+    background-color: #f5f6fa;
+    scroll-snap-align: start; 
+    padding-top: 2rem;
+
+}
+.intro-left{
+    flex: 0.6;
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.intro-left div{
+    font-size: 3rem;
+    padding-left:5rem;
+    height:70px;
+}
+.intro-left div:nth-child(2){
+    color: crimson;
+}
+.hire-me-button{
+    width: 200px;
+    font-weight: bold;
+    margin-left:5rem;
+}
+
+
+
+
+/* right side */
+.intro-right{
+    flex: 0.4;
+    /* background-color: pink; */
+    overflow: hidden;
+}
+.cursor-text{
+    font-size:4rem;
+    height: 80px;
+}
+.intro-right .imgContainer{
+    width: 250px;
+    height: 250px;
+    background-color: crimson;
+    border-radius: 50%;
+    position: relative;
+    top:85px;
+    left:30px;
+    /* width: 420px;
+    height: 450px; */
+}
+.imgContainer img{
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    /* top:-20px;
+    left:45px; */
+    width: 220px;
+    height: 320px;
+    top:-20px;
+    left: 50px;
+    top:0px;
+    left: 20px;
+}
+.imgContainer:hover {
+    /* background-color: #242d49; */
+    cursor: pointer;
+    transition: all 0.9s;
+    width: 250px;
+    height: 200px;
+}
+.imgContainer img:hover{ 
+    transition: all 0.9s;
+    transform: scale(1.06);
+
+}
